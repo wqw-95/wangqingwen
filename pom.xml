@@ -11,8 +11,12 @@
     <groupId>com.aiko</groupId>
     <artifactId>wangqingwen</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>wangqingwen</name>
     <description>wangqingwen</description>
+    <modules>
+        <module>flink</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
     </properties>

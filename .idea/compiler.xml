@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flink" />
         <module name="juc" />
-        <module name="wangqingwen" />
         <module name="common" />
         <module name="gateway" />
       </profile>
@@ -17,9 +17,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="flink" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="juc" options="-parameters" />
-      <module name="wangqingwen" options="-parameters" />
+      <module name="wangqingwen" options="" />
     </option>
   </component>
 </project>
