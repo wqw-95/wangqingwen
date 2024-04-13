@@ -16,6 +16,8 @@
     <description>wangqingwen</description>
     <modules>
         <module>flink</module>
+        <module>spring-ai</module>
+        <module>spring</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

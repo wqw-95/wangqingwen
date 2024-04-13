@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink" />
+        <module name="spring" />
         <module name="juc" />
+        <module name="spring-ai" />
         <module name="common" />
         <module name="gateway" />
       </profile>
@@ -20,6 +22,8 @@
       <module name="flink" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="juc" options="-parameters" />
+      <module name="spring" options="-parameters" />
+      <module name="spring-ai" options="-parameters" />
       <module name="wangqingwen" options="" />
     </option>
   </component>
